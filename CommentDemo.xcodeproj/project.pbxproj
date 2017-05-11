@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015A6B6E1EC304FF0065A50A /* 哆啦A梦.png in Resources */ = {isa = PBXBuildFile; fileRef = 015A6B6D1EC304FF0065A50A /* 哆啦A梦.png */; };
 		017D44911EC16AC0005A15C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44901EC16AC0005A15C4 /* main.m */; };
 		017D44941EC16AC0005A15C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44931EC16AC0005A15C4 /* AppDelegate.m */; };
 		017D44971EC16AC0005A15C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44961EC16AC0005A15C4 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		017D449F1EC16AC0005A15C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017D449D1EC16AC0005A15C4 /* LaunchScreen.storyboard */; };
 		017D44AA1EC16AC1005A15C4 /* CommentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44A91EC16AC1005A15C4 /* CommentDemoTests.m */; };
 		017D44B51EC16AC1005A15C4 /* CommentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44B41EC16AC1005A15C4 /* CommentDemoUITests.m */; };
+		017D44C41EC16ADD005A15C4 /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44C31EC16ADD005A15C4 /* BulletView.m */; };
+		017D44C71EC16AFE005A15C4 /* BulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D44C61EC16AFE005A15C4 /* BulletManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015A6B6D1EC304FF0065A50A /* 哆啦A梦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "哆啦A梦.png"; sourceTree = "<group>"; };
 		017D448C1EC16AC0005A15C4 /* CommentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017D44901EC16AC0005A15C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		017D44921EC16AC0005A15C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		017D44B01EC16AC1005A15C4 /* CommentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		017D44B41EC16AC1005A15C4 /* CommentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentDemoUITests.m; sourceTree = "<group>"; };
 		017D44B61EC16AC1005A15C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017D44C21EC16ADD005A15C4 /* BulletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		017D44C31EC16ADD005A15C4 /* BulletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
+		017D44C51EC16AFE005A15C4 /* BulletManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
+		017D44C61EC16AFE005A15C4 /* BulletManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				017D44931EC16AC0005A15C4 /* AppDelegate.m */,
 				017D44951EC16AC0005A15C4 /* ViewController.h */,
 				017D44961EC16AC0005A15C4 /* ViewController.m */,
+				017D44C21EC16ADD005A15C4 /* BulletView.h */,
+				017D44C31EC16ADD005A15C4 /* BulletView.m */,
+				015A6B6D1EC304FF0065A50A /* 哆啦A梦.png */,
+				017D44C51EC16AFE005A15C4 /* BulletManager.h */,
+				017D44C61EC16AFE005A15C4 /* BulletManager.m */,
 				017D44981EC16AC0005A15C4 /* Main.storyboard */,
 				017D449B1EC16AC0005A15C4 /* Assets.xcassets */,
 				017D449D1EC16AC0005A15C4 /* LaunchScreen.storyboard */,
@@ -251,6 +264,7 @@
 			files = (
 				017D449F1EC16AC0005A15C4 /* LaunchScreen.storyboard in Resources */,
 				017D449C1EC16AC0005A15C4 /* Assets.xcassets in Resources */,
+				015A6B6E1EC304FF0065A50A /* 哆啦A梦.png in Resources */,
 				017D449A1EC16AC0005A15C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +292,9 @@
 			files = (
 				017D44971EC16AC0005A15C4 /* ViewController.m in Sources */,
 				017D44941EC16AC0005A15C4 /* AppDelegate.m in Sources */,
+				017D44C41EC16ADD005A15C4 /* BulletView.m in Sources */,
 				017D44911EC16AC0005A15C4 /* main.m in Sources */,
+				017D44C71EC16AFE005A15C4 /* BulletManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +534,7 @@
 				017D44BB1EC16AC1005A15C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		017D44BC1EC16AC1005A15C4 /* Build configuration list for PBXNativeTarget "CommentDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				017D44BE1EC16AC1005A15C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		017D44BF1EC16AC1005A15C4 /* Build configuration list for PBXNativeTarget "CommentDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				017D44C11EC16AC1005A15C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
